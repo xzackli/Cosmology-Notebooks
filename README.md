@@ -1,5 +1,6 @@
-# CAMBvsCLASS
+# Cosmology Notebooks
 
+## CAMBvsCLASS
 This is a quick and dirty Jupyter notebook that compares reference spectra output for CLASS and CAMB. At
 the highest precision settings, they agree at a 0.1% level up to $\ell \sim 3500$. The linear matter
 power spectra agree to ~0.01%, and HALOFIT nonlinear P(k) agree up to ~0.1%.
