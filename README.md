@@ -7,3 +7,5 @@ power spectra agree to ~0.01%, and HALOFIT nonlinear P(k) agree up to ~0.1%.
 
 I'm particularly interested in the TT spectrum for $3000 < \ell < 5000$. For these purposes, the key parameter appears
 to be `k_max_tau0_over_l_max`.
+
+https://colab.research.google.com/drive/1zLWfk3qK6qRyPT2HZhSUQarCcQqGALCa
