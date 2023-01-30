@@ -112,7 +112,7 @@ omap        = enmap.zeros(shape[-2:], wcs, dtype)
 cosmology   = pyccl.Cosmology(Omega_c=0.2589, Omega_b=0.0486, h=0.6774, sigma8=0.8159, n_s=0.9667, transfer_function="boltzmann_camb")
 mass_interp = MdeltaTranslator(cosmology)
 
-data  = websky_pkcs_read(argshalos, 100)
+data  = websky_pkcs_read(argshalos, nhalos)
 cat    = websky_decode(data, cosmology, mass_interp); del data
 
 f = h5py.File(outfile, 'a')
